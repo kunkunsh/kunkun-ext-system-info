@@ -58,7 +58,7 @@
 		"format": "prettier --write ."
 	},
 	"dependencies": {
-		"@kksh/api": "^0.0.48",
+		"@kksh/api": "^0.0.52",
 		"@kksh/svelte5": "0.1.10",
 		"clsx": "^2.1.1",
 		"lucide-svelte": "^0.462.0",
