@@ -1,7 +1,8 @@
 {
 	"$schema": "https://schema.kunkun.sh",
 	"name": "kunkun-ext-system-info",
-	"version": "0.0.6",
+	"license": "MIT",
+	"version": "0.1.0",
 	"repository": "https://github.com/kunkunsh/kunkun-ext-system-info",
 	"kunkun": {
 		"name": "System Info",

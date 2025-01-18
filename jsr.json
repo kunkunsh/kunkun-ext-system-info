@@ -1,0 +1,9 @@
+{
+	"name": "@kunkun/kunkun-ext-system-info",
+	"version": "0.1.0",
+	"license": "MIT",
+	"exports": "./mod.ts",
+	"publish": {
+		"include": ["dist", "build", "README.md", "package.json", "mod.ts"]
+	}
+}
