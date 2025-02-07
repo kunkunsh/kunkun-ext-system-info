@@ -13,9 +13,9 @@ import {
 	toast,
 	ui,
 	utils,
-	WorkerExtension,
+	TemplateUiCommand,
 	type ListSchema
-} from '@kksh/api/ui/worker';
+} from '@kksh/api/ui/template';
 import { getMacBatteryInfo } from './mac-ioreg';
 
 async function parseBatteryInfo(
@@ -196,7 +196,7 @@ async function run() {
 	});
 }
 
-class BatteryInfo extends WorkerExtension {
+class BatteryInfo extends TemplateUiCommand {
 	intervalId: NodeJS.Timer | null = null;
 	async onBeforeGoBack() {
 		if (this.intervalId) {

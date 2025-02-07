@@ -19,5 +19,6 @@ jobs:
         run: bun install
       - name: Build
         run: bun run build
+      - run: bunx kksh@latest verify --publish
       - name: Publish package
         run: npx jsr publish

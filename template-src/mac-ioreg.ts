@@ -12,8 +12,8 @@ import {
 	toast,
 	ui,
 	utils,
-	WorkerExtension
-} from '@kksh/api/ui/worker';
+	TemplateUiCommand
+} from '@kksh/api/ui/template';
 
 export async function getMacBatteryInfo() {
 	const batteryInfoRet = await shell
